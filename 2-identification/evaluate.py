@@ -15,7 +15,8 @@ from utils.loss import FocalLoss
 parser = argparse.ArgumentParser(description='Chimp identification evaluation')
 parser.add_argument('--gpu_id', default='0', type=str)
 parser.add_argument('--pretrained_weights',type=str,
-                    default='./pretrained_weights/model_new.pt',help='checkpoint to load')
+                    help='checkpoint to load',
+                    required=True)
 
 args = parser.parse_args()
 

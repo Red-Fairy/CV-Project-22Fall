@@ -1,12 +1,12 @@
 ## Dataset
-Dataset are provided in ```./data```, the images are cropped form the original images according to the bounding box annotations.
+Datases are provided in ```./data```, the images are cropped form the original images according to the bounding box annotations.
 
 ## Training
 To train the model, run the following command:
 
 ```python train_identification.py --experiment exp_path```
 
-Checkpoints and loggers will be stored in ``./checkpoints/exp_path``.
+The checkpoints and loggers will be stored in ``./checkpoints/exp_path``.
 
 ## Testing
 You may run the following command to evaluate the model.

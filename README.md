@@ -1,4 +1,4 @@
-This is the official repository for our PKU Computer Vision Project (22 Fall). Our project involves three tasks:
+This is the official repository of the final project for *PKU Computer Vision (22 Fall)* of team **Champion Chimps**. Our project involves three tasks:
 - Chimp detection
 - Chimp identification
 - Chimp 2D pose estimation

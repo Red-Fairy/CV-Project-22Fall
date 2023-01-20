@@ -18,7 +18,7 @@ The divided and cleaned images are stored in ```./images/train``` and ```./image
 ## Detect
 To do the detection task, run the following command:
 
-```python detect.py --weights models/trained/yolov5l_40_epochs.pt --source images```
+```python detect.py --weights models/trained/yolov5l_40_epochs.pt --source images/val```
 
 The results will be stored in ``./results/detect``.
 

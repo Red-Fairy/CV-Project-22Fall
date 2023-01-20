@@ -4,7 +4,7 @@ import os.path as osp
 import shutil
 
 def main():
-    for filename in os.listdir(r'labels_detect\train'):
+    for filename in os.listdir(r'labels\train'):
         filename2 = list(filename)
         for i in range(0,len(filename2)):
             if filename2[i]=='.' :
@@ -25,7 +25,7 @@ def main():
 
 
 
-    for filename in os.listdir(r'labels_detect\val'):
+    for filename in os.listdir(r'labels\val'):
         filename2 = list(filename)
         for i in range(0,len(filename2)):
             if filename2[i]=='.' :

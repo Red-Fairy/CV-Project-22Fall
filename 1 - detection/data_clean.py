@@ -4,16 +4,16 @@ import os.path as osp
 import shutil
 
 def main():
-    for filename in os.listdir(r'labels_detect\train'):
+    for filename in os.listdir(r'labels\train'):
         z=0
-        f=open(r'labels_detect\\train\\'+filename,'r')
+        f=open(r'labels\\train\\'+filename,'r')
         str1=f.read
-        if not os.path.getsize(r'labels_detect\\train\\'+filename):
+        if not os.path.getsize(r'labels\\train\\'+filename):
             z=1
         f.close()
         if z==0 :
             continue
-        os.remove(r'labels_detect\\train\\'+filename)
+        os.remove(r'labels\\train\\'+filename)
         filename2 = list(filename)
         for i in range(0,len(filename2)):
             if filename2[i]=='.' :
@@ -29,16 +29,16 @@ def main():
 
 
 
-    for filename in os.listdir(r'labels_detect\val'):
+    for filename in os.listdir(r'labels\val'):
         z=0
-        f=open(r'labels_detect\\val\\'+filename,'r')
+        f=open(r'labels\\val\\'+filename,'r')
         str1=f.read
-        if not os.path.getsize(r'labels_detect\\val\\' + filename):
+        if not os.path.getsize(r'labels\\val\\' + filename):
             z=1
         f.close()
         if z==0 :
             continue
-        os.remove(r'labels_detect\\val\\'+filename)
+        os.remove(r'labels\\val\\'+filename)
         filename2 = list(filename)
         for i in range(0,len(filename2)):
             if filename2[i]=='.' :

@@ -1,6 +1,6 @@
-## This is the official repository of the final project for **PKU Computer Vision (Fall 2022)** of team **Champion Chimps**. 
+### Repository of the final project for **PKU Computer Vision (Fall 2022)** of team **Champion Chimps**. 
 
-## Authors: Rundong Luo, Yiran Geng, Zebin Yang (Equal Contributions)
+### Authors: Rundong Luo, Yiran Geng, Zebin Yang (Equal Contributions)
 
 Our project involves three tasks:
 - Chimp detection
